@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Spiro Libraries
+tagline:          Libraries for building single page applications to run against a Restful Objects API.
+url:              http://spirolibraries.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Dan Haywood
+  url:            https://twitter.com/dkhaywood
+  email:          dan@haywood-associates.co.uk
+
+# Custom vars
+# version:          1.0.0
+# github:
+#   repo:           https://github.com/isisaddons/isisaddons.github.io
+  
