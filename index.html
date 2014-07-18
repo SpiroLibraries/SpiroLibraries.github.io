@@ -7,12 +7,11 @@ title: Home
 <h3>Libraries:</h3>
 <ul>
     {% for repo in site.github.public_repositories %}
-                
-                    <li>
-                        <a href="{{repo.html_url}}">{{ repo.name }}</a>
-
-                    </li> 
-            
+        {% unless repo.name contains 'github.io' %}
+            <li>
+                <a href="{{repo.html_url}}">{{ repo.name }}</a>
+            </li> 
+        {% endunless %}
     {% endfor %}
 </ul>
 
